@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style>
+                body {
+                    background-color: bisque;
+                }
+                h1{
+                    text-align: center;
+                }
+                </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Buttler's Pizza Order</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+   <h1>Buttler's Pizza Order</h1>
+   <!-- <image src="https://www.butlers.co.za/images/xmenu-0218-front.jpg.pagespeed.ic.fyz-IenfN4.jpg" width="500px"></image> -->
+    
+        <form>
+            <fieldset>
+            <legend>Personal Details</legend>
+            First name:<br>
+            <input type="text" name="firstname" >
+            <br>
+            Cell Number:<br>
+            <input type="text" name="Cell_number" >
+            </fieldset>
+            <br><br>
+            
+            <fieldset>
+            <legend>Size</legend>
+            <input type="radio" name="Size" value="Small" checked> Small<br>
+            <input type="radio" name="Size" value="medium"> Medium<br>
+            <input type="radio" name="Size" value="Large"> Large <br>
+            </fieldset><br>
+
+            <fieldset>
+            <legend>Flavour</legend>
+            <input type="radio" name="flavour" value="Macaroni And Cheese Pizza" checked> Macaroni And Cheese Pizza<br>
+            <input type="radio" name="flavour" value="Chicken Alfredo Pizza"> Chicken Alfredo Pizza<br>
+             <input type="radio" name="flavour" value="Taco Quesadila Pizza"> Taco Quesadila Pizza<br>  
+            <input type="radio" name="flavour" value="Loaded Baked Potato Pizza"> Loaded Baked Potato Pizza <br>
+            <input type="radio" name="flavour" value="Spaghetti & Meatball Pizza"> Spaghetti & Meatball Pizza<br>
+            <input type="radio" name="flavour" value="Sweet Peach and Corn Pizza"> Sweet Peach and Corn Pizza<br> 
+            </fieldset><br>
+        <h4>Number of Pizzas</h4>
+            <select name="number of pizzas">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><br>
+            <input type="submit" value="Submit"><br><br>
+
+            <input name="ctl00$ContentPlaceHolder1$ctl00$ctl02$txtEmail" type="text" value="Enter your email ID" id="ctl00_ContentPlaceHolder1_ctl00_ctl02_txtEmail" class="subscribemailtxt" onblur="MailingList.ResetValue1(this);" onclick="MailingList.ResetLocalValue1(this);" keypress-bind="true">
+            <input type="submit" value="Subscribe">
+
+          </form> 
+        
+
+</body>
+</html>
